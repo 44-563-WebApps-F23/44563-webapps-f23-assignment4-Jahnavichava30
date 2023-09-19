@@ -1,0 +1,42 @@
+body{
+    font-family: cursive;
+}
+
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.direction {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(210, 255, 127);
+    cursor: pointer; 
+}
+
+
+.direction:hover {
+    background-color: Cyan;
+    color: white;
+}
+
+
+.peter_stockmann {
+    color: HotPink;
+}
+.peter_stockmann:hover{
+    text-shadow:2px 3px 5px grey;
+    border: 1px dotted black;
+}
+
+.mrs_stockmann {
+    color: NavajoWhite;
+}
+.mrs_stockmann:hover{
+    text-shadow:2px 3px 5px grey;
+    border: 1px dotted black;
+}
+
+
