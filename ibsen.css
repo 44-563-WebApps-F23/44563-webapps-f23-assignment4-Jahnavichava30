@@ -40,3 +40,35 @@ body{
 }
 
 
+table, th, td {
+  border: 1px solid;
+}
+
+
+/* Styles for the cast table */
+.cast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Add border to the table */
+}
+
+.cast-table th {
+    background-color: #007acc;
+    color: white;
+    border: 1px solid #007acc;
+    text-align: center;
+    padding: 10px;
+}
+
+.cast-table th, .cast-table td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Add padding to cells for better readability */
+    text-align: left;
+}
+
+.cast-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Row stripes for odd rows */
+}
+
+
