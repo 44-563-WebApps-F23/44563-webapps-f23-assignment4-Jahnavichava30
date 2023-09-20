@@ -70,3 +70,10 @@ tr:nth-child(even){
     background-color:hwb(323 73% 20%);
 }
 
+
+.name:hover {
+    box-shadow: 0 0 10px rgba(45, 228, 152, 0.7); 
+  
+    border: 2px solid rgb(218, 161, 39); 
+  }
+  
